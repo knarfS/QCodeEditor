@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(QCodeEditor)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 option(BUILD_EXAMPLE "Example building required" Off)
 
